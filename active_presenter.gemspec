@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'active_presenter'
-  s.version = '3.3.0'
+  s.version = '4.0.0'
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to?(:required_rubygems_version=)
   s.authors = ['James Golick', 'Daniel Haran', 'Josh Martin', 'Johnno Loggie', 'Cedric Darricau']
   s.date = '2012-03-26'
@@ -28,14 +28,14 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/jamesgolick/active_presenter'
   s.rdoc_options = ['--charset=UTF-8']
   s.require_paths = ['lib']
-  s.rubygems_version = '1.3.7'
+  s.rubygems_version = '2.6.13'
   s.summary = 'The presenter library you already know.'
   s.test_files = [
     'test/base_test.rb',
     'test/lint_test.rb',
     'test/test_helper.rb'
   ]
-  s.add_runtime_dependency('activerecord', ['~> 4.2.2'])
+  s.add_runtime_dependency('activerecord', ['~> 5.0.7'])
   s.add_development_dependency('rake', ['>= 12.0'])
   s.add_development_dependency('rspec', ['>= 3.0.0'])
   s.add_development_dependency('sqlite3', ['>= 1.3.5'])

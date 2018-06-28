@@ -1,4 +1,4 @@
-require 'spec_helper'
+require_relative 'spec_helper'
 
 describe ActivePresenter::Base do
   context "when SignupPresenter is set as new" do

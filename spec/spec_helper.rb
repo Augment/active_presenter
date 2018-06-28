@@ -1,7 +1,8 @@
 require 'rspec'
 require 'simplecov'
-require 'active_presenter'
 require 'logger'
+
+require_relative '../lib/active_presenter'
 
 ActiveRecord::Base.establish_connection({
   adapter: 'sqlite3',
